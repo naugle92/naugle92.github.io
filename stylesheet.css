@@ -1,0 +1,36 @@
+
+
+div.intro_pic {
+	background-image: url('https://github.com/naugle92/naugle92.github.io/blob/master/bw_lake.jpg?raw=true');
+	background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 25%;
+	left: 0;
+	width: 100%;
+	background-position: fixed;
+	background-repeat: no-repeat;
+	text-align: center;
+	/*text-shadow: 1px;*/
+	color:black;
+	border-color: black;
+	/*position: relative;*/
+}
+
+name {
+	text-align: center;
+}
+
+div.blackbar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	background-color: black;
+}
+
+
+hr.line {
+	width: 30%;
+
+}
