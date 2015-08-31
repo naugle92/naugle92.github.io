@@ -1,5 +1,5 @@
 
-
+/*main page picture and words on that picture are styled here*/
 div.intro_pic {
 	background-image: url('https://github.com/naugle92/naugle92.github.io/blob/master/bw_lake.jpg?raw=true');
 	background-size: cover;
@@ -18,7 +18,7 @@ div.intro_pic {
 	
 }
 
-
+/*navigation bar on each of the pages*/
 td.blackbar {
 	color: white;
 	height: 100%;
@@ -29,7 +29,7 @@ td.blackbar {
 
 }
 
-
+/*navigation bar at the top of each page*/
 div.blackbar {
 	/*position: fixed;*/
 	position: absolute;
@@ -40,16 +40,18 @@ div.blackbar {
 	background-color: black;
 }
 
-
+/*didnt really need this, but it makes sure the line near the bottom of the page before the contact info doesnt take up the whole page*/
 hr.line {
 	width: 30%;
 }
 
+/*links dont have line underneath*/
 a {
 	text-decoration: none;
 	color: white;
 }
 
+/*words on the navigation bar at the top*/
 td.header{
 	color: white;
 	font-size: 20px;
@@ -58,6 +60,7 @@ td.header{
 	padding-right: 15px;
 }
 
+/*contact information at the bottom*/
 td.footer{
 	color: white;
 	padding-top: 10px;
@@ -68,6 +71,7 @@ td.footer{
 	padding-right: 25px;
 }
 
+/*contact info when the background is white. gotta make sure the words constrast*/
 td.footer_white{
 	color: black;
 	font-weight: 10px;
@@ -81,7 +85,7 @@ td.footer_white{
 }
 
 
-
+/*big ass header under the nav bar on the about.html page*/
 h1.about_header {
 	font-size: 80px;
 	padding-top: 100px;
@@ -94,18 +98,21 @@ h1.about_header {
 	font-family: sans-serif;
 }
 
+
 h1.about_name {
 	color:black;
 	font-family: sans-serif;
 	padding-left: 30px;
 }
 
+/*keeps all the images except the main one, to a resonable size*/
 img.resize {
 	width:400px;
 	height: auto;
 }
 
 
+/*this didnt work i dont think*/
 ul{
 	padding-left: 0;
 	list-style-position: inside;
@@ -115,12 +122,15 @@ li {
 	padding-top: 5px;
 }
 
+
+/*used in both the about and the experience tabs, sizes and changes the font*/
 div.hobby{
 	color:black;
 	font-family: sans-serif;
 	padding-left: 30px;
 }
 
+/*same thing as above, changes font style of the text on the about and experience pages*/
 h3.about_name {
 	color:black;
 	font-family: sans-serif;
@@ -131,20 +141,18 @@ h3.about_hobby {
 	color:black;
 	font-family: sans-serif;
 }
-
 li.about_hobby {
 	color:black;
 	font-family: sans-serif;
 }
 
-
+/*most of the pictures, used to keep them from getting too close the edge and the text*/
 td.pic {
 	padding: 15px;
 	text-align: center;
 }
 
-
-
+/*dashed line between the experiences*/
 tr.experience td {
 	border-bottom: 1pt dashed black;
 	border-bottom: 80%;
