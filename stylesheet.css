@@ -3,25 +3,25 @@
 div.intro_pic {
 	background-image: url('https://github.com/naugle92/naugle92.github.io/blob/master/bw_lake.jpg?raw=true');
 	background-size: cover;
-	padding-top: 5%;
-	padding-bottom: 25%;
-	left: 0;
+	position: static;
+	padding-top: 7%;
+	padding-bottom: 23%;
+	left: 0px;
+	top: 70px;
 	width: 100%;
-	background-position: fixed;
+	/*background-position: absolute;*/
 	background-repeat: no-repeat;
 	text-align: center;
 	/*text-shadow: 1px;*/
 	color:black;
-	border-color: black;
-	/*position: relative;*/
+	
+	
 }
 
-name {
-	text-align: center;
-}
 
 td.blackbar {
 	color: white;
+	height: 100%;
 	font-size: 50px;
 	font-family: Impact;
 	padding-left: 10px;
@@ -31,7 +31,8 @@ td.blackbar {
 
 
 div.blackbar {
-	position: fixed;
+	/*position: fixed;*/
+	position: absolute;
 	left: 0;
 	top: 0;
 	height: 70px;
@@ -42,7 +43,6 @@ div.blackbar {
 
 hr.line {
 	width: 30%;
-
 }
 
 a {
@@ -56,4 +56,77 @@ td.header{
 	font-family: Impact;
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+td.footer{
+	color: white;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 13px;
+	font-family: sans-serif;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+td.footer_white{
+	color: black;
+	font-weight: 10px;
+	padding-top: 5px;
+	text-align: center;
+	font-size: 13px;
+	font-family:  sans-serif;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+
+
+h1.about_header {
+	font-size: 80px;
+	padding-top: 100px;
+	padding-bottom: 40px;
+	border-bottom: thin solid;
+	border-color: black;
+	margin: 0;
+	background-color: #E0E0E0;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+h1.about_name {
+	color:black;
+	font-family: sans-serif;
+	padding-left: 30px;
+
+}
+
+ul{
+	padding-left: 0;
+	list-style-position: inside;
+}
+li {
+	padding-left: 30px;
+	padding-top: 5px;
+}
+
+div.hobby{
+	color:black;
+	font-family: sans-serif;
+	padding-left: 30px;
+}
+
+h3.about_name {
+	color:black;
+	font-family: sans-serif;
+	padding-left: 30px;
+}
+
+h3.about_hobby {
+	color:black;
+	font-family: sans-serif;
+}
+
+li.about_hobby {
+	color:black;
+	font-family: sans-serif;
 }
